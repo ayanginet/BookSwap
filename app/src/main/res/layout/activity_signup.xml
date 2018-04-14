@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.signup"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/image_logo"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="30dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Имя Фамилия"
+            android:textColor="#707070"
+            android:textColorHint="#d4d4d4"
+            android:id="@+id/name"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Ваш email"
+            android:textColor="#707070"
+            android:textColorHint="#d4d4d4"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#707070"
+            android:hint="Пароль"
+            android:id="@+id/password"
+            android:textColorHint="#d4d4d4"
+            android:inputType="textPassword"/>
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:id="@+id/confirmPassword"
+            android:layout_height="wrap_content"
+            android:textColor="#707070"
+            android:hint="Подтвердите ваш пароль"
+            android:textColorHint="#d4d4d4"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Зарегистрироваться"
+            android:background="@drawable/btn_signin"
+            android:id="@+id/signup"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Назад"
+            android:background="@drawable/btn_signup"
+            android:id="@+id/back_to_signin"
+            android:onClick="goToSignIn"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92488271360",
+    "firebase_url": "https://bookswap-ad55a.firebaseio.com",
+    "project_id": "bookswap-ad55a",
+    "storage_bucket": "bookswap-ad55a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92488271360:android:2e1a3e2e2a60a2a1",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.bookswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92488271360-n6m325ei16hrml6nh31unc6po5f74prr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.bookswap",
+            "certificate_hash": "6e5228623afc7d1efc5c0de2642a5c3509654e4c"
+          }
+        },
+        {
+          "client_id": "92488271360-hgs1vn3k8pk32qihdeopass51mrrceui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmGNRiSZzO3it6X2-0EF8CtyHR08rmNv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92488271360-hgs1vn3k8pk32qihdeopass51mrrceui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
